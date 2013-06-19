@@ -2,7 +2,7 @@
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="name" type="xstring" value="File Reader"/>
 <config key="model">
-<entry key="DataURL" type="xstring" value="file:/Users/manu/Dropbox/Gruppen-Arbeiten%20SEM%208/CRM-Projekt/Knime_Project/datafile/Inactive%20Prepaid%20mit%20Target.csv"/>
+<entry key="DataURL" type="xstring" value="file:/Users/manu/Documents/workspace/CRM-Project/CRM_Project/Inactive%20Prepaid%20mit%20Target.csv"/>
 <config key="Delimiters">
 <config key="Delim0">
 <entry key="pattern" type="xstring" value="%%00010"/>
@@ -62,7 +62,7 @@
 <entry key="PreserveSettings" type="xboolean" value="false"/>
 <config key="ColumnProperties">
 <config key="0">
-<entry key="UserSetValues" type="xboolean" value="true"/>
+<entry key="UserSetValues" type="xboolean" value="false"/>
 <entry key="MissValuePattern" type="xstring" isnull="true" value=""/>
 <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
 <entry key="SkipThisColumn" type="xboolean" value="false"/>
@@ -370,7 +370,7 @@
 </config>
 </config>
 <config key="28">
-<entry key="UserSetValues" type="xboolean" value="true"/>
+<entry key="UserSetValues" type="xboolean" value="false"/>
 <entry key="MissValuePattern" type="xstring" value="?"/>
 <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
 <entry key="SkipThisColumn" type="xboolean" value="false"/>
@@ -428,6 +428,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0cfe7788-abcc-458e-9bc3-4249b5556d67"/>
+<entry key="file_store_id" type="xstring" value="dc119378-5cf5-49ee-b218-201e5c631166"/>
 </config>
 </config>
