@@ -65,7 +65,7 @@
 <entry key="UserSetValues" type="xboolean" value="true"/>
 <entry key="MissValuePattern" type="xstring" isnull="true" value=""/>
 <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
-<entry key="SkipThisColumn" type="xboolean" value="true"/>
+<entry key="SkipThisColumn" type="xboolean" value="false"/>
 <entry key="ColumnName" type="xstring" value="LAST_MONTH_TOTAL_REVENUE_jan"/>
 <config key="ColumnClass">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
@@ -422,12 +422,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 57178, Cols: 31"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 57178, Cols: 32"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="fd328165-b600-4f95-a525-b9be622c1070"/>
+<entry key="file_store_id" type="xstring" value="0cfe7788-abcc-458e-9bc3-4249b5556d67"/>
 </config>
 </config>

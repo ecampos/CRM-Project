@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="name" type="xstring" value="Column Filter"/>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="31"/>
+<entry key="0" type="xstring" value="REVENUE_VOICE_oct"/>
+<entry key="1" type="xstring" value="REVENUE_GPRS_oct"/>
+<entry key="2" type="xstring" value="REVENUE_SMS_oct"/>
+<entry key="3" type="xstring" value="REVENUE_VAS_oct"/>
+<entry key="4" type="xstring" value="VOLUME_MIN_oct"/>
+<entry key="5" type="xstring" value="VOLUME_NO_oct"/>
+<entry key="6" type="xstring" value="VOLUME_MIN_country_X_oct"/>
+<entry key="7" type="xstring" value="VOLUME_NO_country_X_oct"/>
+<entry key="8" type="xstring" value="VOLUME_MIN_country_Y_oct"/>
+<entry key="9" type="xstring" value="VOLUME_NO_country_Y_oct"/>
+<entry key="10" type="xstring" value="VOLUME_MIN_Neighbou_octr"/>
+<entry key="11" type="xstring" value="VOLUME_NO_Neighbour_oct"/>
+<entry key="12" type="xstring" value="VOLUME_MIN_West_Europe_oct"/>
+<entry key="13" type="xstring" value="VOLUME_NO_West_Europe_oct"/>
+<entry key="14" type="xstring" value="VOLUME_MIN_East_Europe_oct"/>
+<entry key="15" type="xstring" value="VOLUME_NO_East_Europe_oct"/>
+<entry key="16" type="xstring" value="VOLUME_MIN_OTHERDEST_oct"/>
+<entry key="17" type="xstring" value="VOLUME_NO_OTHERDEST_oct"/>
+<entry key="18" type="xstring" value="NO_SMS_OTHERDEST_oct"/>
+<entry key="19" type="xstring" value="NO_GPRS_OTHERDEST_oct"/>
+<entry key="20" type="xstring" value="VOLUME_MIN_COMPETITION_oct"/>
+<entry key="21" type="xstring" value="VOLUME_NO_COMPETITION_oct"/>
+<entry key="22" type="xstring" value="NO_SMS_COMPETITION_oct"/>
+<entry key="23" type="xstring" value="NO_GPRS_COMPETITION_oct"/>
+<entry key="24" type="xstring" value="NO_ROAMING_oct"/>
+<entry key="25" type="xstring" value="SCORE_ID"/>
+<entry key="26" type="xstring" value="AGE"/>
+<entry key="27" type="xstring" value="GENDER"/>
+<entry key="28" type="xstring" value="REVENUE_AMOUNT_oct"/>
+<entry key="29" type="xstring" value="NUM_OF_RECHARGE_oct"/>
+<entry key="30" type="xstring" value="CHURN"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="LAST_MONTH_TOTAL_REVENUE_jan"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+</config>
+</config>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 56852, Cols: 31"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="04bc316f-ae40-46b3-89b0-935db8d4f427"/>
+</config>
+</config>
