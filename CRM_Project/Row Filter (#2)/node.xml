@@ -9,7 +9,7 @@
 <config key="lowerBound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="17"/>
+<entry key="IntCell" type="xint" value="15"/>
 </config>
 </config>
 <config key="upperBound">
@@ -27,12 +27,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 56852, Cols: 32"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 56867, Cols: 32"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="aff3d070-a4a0-4eb0-a31b-05d5ce31c1a9"/>
+<entry key="file_store_id" type="xstring" value="cb51e790-0f90-47ed-97ec-592298b72b44"/>
 </config>
 </config>

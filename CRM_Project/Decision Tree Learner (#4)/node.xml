@@ -21,7 +21,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="pruningMethod" type="xstring" value="No pruning"/>
+<entry key="pruningMethod" type="xstring" value="MDL"/>
 <config key="splitQualityMeasure_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -73,6 +73,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b2250b29-4caf-4cfc-ad24-48fb5191223c"/>
+<entry key="file_store_id" type="xstring" value="1a0b83ad-89f5-4738-a4a0-7512a72474c9"/>
 </config>
 </config>
