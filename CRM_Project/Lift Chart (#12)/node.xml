@@ -16,7 +16,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="responseLabel" type="xstring" value="0"/>
+<entry key="responseLabel" type="xstring" value="1"/>
 <config key="intervalWidth_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -36,6 +36,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7f4c375b-5410-439b-b86a-375979f03241"/>
+<entry key="file_store_id" type="xstring" value="388242d1-9609-41e9-8cae-16fa89b72929"/>
 </config>
 </config>
